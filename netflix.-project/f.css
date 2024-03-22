@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+body{
+        background-color: black;
+}
+header {
+    
+        height: 60px;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0);
+        display: flex;
+        position:absolute;
+        z-index: 1;
+
+}
+nav {
+    display: inline-flex;
+        width: 100vw;
+        
+        align-items: center;
+}
+.logo{
+    margin-left: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+ul{
+        
+     
+        list-style: none;
+        margin-left: 30px;
+
+      
+}
+ul li {
+        text-align: center;
+     display: inline;
+     font-family: 'Poppins', sans-serif;
+        color: white;
+        font-weight: 900;
+        padding-left: 30px;
+        font-size: 15px;
+        
+}
+li a{
+        transition: all 0.3s;
+}
+.slider{
+        position: absolute;
+        width: 100vw;
+        height:100vh;
+        background-image: url(images/banner.jpg_large);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+}
+
+
+.row1{
+    
+    position: absolute;
+    z-index: 1;
+    margin-top: 850px;
+    margin-left: 45px;
+    justify-content: center;
+    display: inline;
+    height:250px;
+    width: 95vw;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+.row1 h3{
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-bottom: 1px;
+        font-size:25px ;
+        color: white;
+}
+.moviesrow{
+        height: 180px;
+        margin-top: 10px;
+        padding-bottom: 30px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0);
+}
+.moviesrow .imges{
+                width: 300px;
+                height: 100%;
+                background-color: aqua;
+                margin-right: auto;
+                padding-right: 10px;
+                transition: all 0.2s;
+}
+.m1{
+    background-image: url(images/m1.webp);
+  
+    background-size: cover;
+    background-position: center;
+}
+.m2{
+    background-image: url(images/m2.webp);
+    background-size: cover;
+}
+.m3{
+    background-image: url(images/m3.jpg);
+    background-size: cover;
+}
+.m4
+{
+        background-image: url(images/m4.avif);
+        background-size: cover;
+}
+.m5{
+    background-image: url(images/m5.jpg);
+    background-size: cover;
+}
+.m6{
+        background-image: url(images/m6.jpg);
+        background-size: cover;
+}
+.m7{
+    background-image: url(images/m7.jpg);
+    background-size: cover;
+}
+.m8{
+    background-image: url(images/m8.jpg);
+    background-size: cover;
+}
+.m9{
+ background-image: url(images/m9.png);
+    background-size: cover;
+}
+.m10{
+    background-image: url(images/m10.jpg);
+       background-size: cover;
+   }
+   .m11{
+    background-image: url(images/m11.jpg);
+       background-size: cover;
+   }
+   .m12{
+    background-image: url(images/m12.jpg);
+      background-size: cover;
+       background-position: center;
+   }
+   .m13{
+    background-image: url(images/m13.jpg_large);
+      background-size: cover;
+       background-position: center;
+   }
+   .m14{
+    background-image: url(images/m14.jpg);
+      background-size: cover;
+       
+   }
+   .m15{
+    background-image: url(images/m15.jpg);
+      background-size: cover;
+       
+   }
+   .m16{
+    background-image: url(images/m16.webp);
+      background-size:cover;
+      background-position: center;
+       
+   }
+
+   .moviesrow .imges:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+   }
+
+   .fheader li a:hover{
+    cursor: pointer;
+        
+        color: red;
+
+   }
+.fheader li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer{
+    padding: 34px 5% 10px;
+    border-top: 7px solid #303030 ;
+    background: #000;
+    color: #777;
+    position: relative;
+}
+.footer h2{
+    font-weight: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 0px;
+    
+    
+}
+.footer .col a{
+   display: block;
+   margin-bottom: 20px;
+   font-size: 15px;
+   font-weight: 400;
+   color: #777;
+}
+.footer .col a:active{
+    color: red;
+}
+
+.footer .row{
+    align-items: flex-start;
+    padding: 30px 0;
+}
+.footer button{
+    color: #fff;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+.footer .cr{
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+
+ li label:hover{
+   
+    background: rgb(75, 75, 75);
+}
+.submit-form button a{
+    text-decoration: none;
+    color: white;
+}
